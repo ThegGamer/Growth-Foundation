@@ -1,0 +1,175 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Projects - Growth Foundation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link href="styles2.css" rel="stylesheet" type="text/css"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="Web-Icon files\apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Web-Icon files\favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Web-Icon files\favicon-16x16.png">
+    <link rel="manifest" href="Web-Icon files\site.webmanifest">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
+</head>
+<body class="body"> 
+<nav class="navbar">
+        <div>
+            <a href="index.html"><img class="growth-image" src="Growth_Logo1.png" loading="eager" width="64" height="59" alt=""/></a>
+        </div>
+        <a href="index.html"><h1 class="growth-text">G.R.O.W.T.H</h1></a>
+        <div onclick="Dropdown()" class="menu-icon" id="menu-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div id="menu-toggle" class="dropdown-menu">
+            <ul>
+                <li class="menu-li-1">
+                    <a href="#"><span>Donate</span></a>
+                </li>
+                <li>
+                    <a onclick="Contact_Dropdown()"><span id="contact-text">Contact Us</span></a>
+                    <button onclick="Contact_Dropdown()" title="contact-dropdown" id="Button" type="button">
+                        <svg viewBox="0 0 500 500" width="30" xmlns="http://www.w3.org/2000/svg">
+                            <path id="XMLID_225_" d="M 347.867 138.278 C 342.01 132.421 332.512 132.42 326.654 138.279 L 187.264 277.672 L 47.867 138.278 C 42.01 132.421 32.512 132.42 26.654 138.279 C 20.796 144.137 20.796 153.634 26.654 159.492 L 176.658 309.492 C 179.471 312.305 183.286 313.885 187.264 313.885 C 191.242 313.885 195.058 312.304 197.87 309.491 L 347.866 159.491 C 353.725 153.634 353.725 144.136 347.867 138.278 Z" style="fill: rgb(32, 130, 125);"/>
+                        </svg>
+                    </button>
+                </li>
+            </ul>
+            <div id="contact-dropdown" class="contact-us-dropdown">
+                <ul>
+                    <li class="contact-list">
+                        <h3 class="contact-header">Contact Numbers</h3>
+                        <ul>
+                            <li>Flow (876) 999-9999</li>
+                            <li>Digicel (876) 999-9999</li>
+                        </ul>
+                    </li>
+                    <li class="contact-list">
+                        <h3 class="contact-header">Email Address</h3>
+                        <ul class="contact-ul">
+                            <li>growthfoundation@gmail.com</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <ul>
+                <li id="project-li">
+                    <a href="projects.html"><span>Projects</span></a>
+                </li>
+            </ul>
+        </div>
+        <div class="navbar-buttons">
+            <h1 class="donate-button">Donate</h1>
+            <a onclick="Highlight()" href="#Contact"><h1 class="contact-us-button">Contact Us</h1></a>
+            <a href="projects.html"><h1 class="projects-button">Projects</h1></a>
+        </div>
+    </nav>
+    <section class="project-header-section">
+        <div class="project-header-block">
+            <h1 class="project-header">Project Title</h1>
+            <p class="project-subtitle">
+                Subheading that sets up context, shares more info about the author, or generally gets people psyched to keep reading            </p>
+        </div>
+        <div class="project-heading-image">
+            <img src= Farming.png loading="lazy" width="1281px" height="650px" alt="" class="heading-image"/>
+        </div>
+    </section>
+    <section class="details-section">
+        <div class="details-text-block">
+            <p class="details-text">
+                Body text for your whole article or post. We’ll put in some lorem ipsum to show how a filled-out page might look:            </p>
+            <p class="details-text">
+                Excepteur efficient emerging, minim veniam anim aute carefully curated Ginza conversation exquisite perfect nostrud nisi intricate Content. Qui  international first-class nulla ut. Punctual adipisicing, essential lovely queen tempor eiusmod irure. Exclusive izakaya charming Scandinavian impeccable aute quality of life soft power pariatur Melbourne occaecat discerning. Qui wardrobe aliquip, et Porter destination Toto remarkable officia Helsinki excepteur Basset hound. Zürich sleepy perfect consectetur.            </p>
+            <p class="details-text">
+                Exquisite sophisticated iconic cutting-edge laborum deserunt Addis Ababa esse bureaux cupidatat id minim. Sharp classic the best commodo nostrud delightful. Conversation aute Rochester id. Qui sunt remarkable deserunt intricate airport handsome K-pop excepteur classic esse Asia-Pacific laboris.            </p>
+            <p class="details-text">
+                Excepteur efficient emerging, minim veniam anim cloying aute carefully curated gauche. Espresso exquisite perfect nostrud nisi intricate. Punctual adipisicing Borzoi, essential lovely tempor eiusmod irure. Exclusive izakaya charming Quezon City impeccable aute quality of life soft power pariatur occaecat discerning. Qui wardrobe aliquip, et Amadeus rock opera.            </p>
+            <p class="details-text">
+                Exquisite sophisticated iconic cutting-edge laborum deserunt esse bureaux cupidatat id minim. Sharp classic the best commodo nostrud delightful. Conversation aute wifey id. Qui sunt remarkable deserunt intricate airport excepteur classic esse riot girl.            </p>
+        </div>
+    </section>
+    <section class="related-images-section">
+        <div class="related-text-block">
+            <h2 class="related-text">Related Images</h2>
+        </div>
+        <div class="random-div">
+            <div>
+                <button class="scroll-left" onclick="scrollR()"><img width="50px" src="arrow-left.svg"></img></button>
+            </div>
+            <div id="image-scroll" class="related-images-block">
+                 
+                <img src= related-image1.png loading="lazy" width="404px" height="365px" alt="" class="related-image"/>
+                 
+                <img src= related-image2.png loading="lazy" width="404px" height="365px" alt="" class="related-image"/>
+                 
+                <img src= related-image3.png loading="lazy" width="404px" height="365px" alt="" class="related-image"/>
+                 
+                <img src= related-image7.png loading="lazy" width="404px" height="365px" alt="" class="related-image"/>
+                            </div>
+            <div>
+                <button class="scroll-right" onclick="scrollL()"><img width="50px" src="arrow-left.svg"></img></button>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div id="anim" class="footer-image-block">
+            <lottie-player id="Lottie" class="growth-tree"
+                src="Tree_Animation.json"
+                style="width: 250px; height: 276px">
+            </lottie-player>
+            <img style="display:none" src="tree.png" loading="lazy" width="250" height="276" alt="" class="growth-tree"/>
+            <h3 class="tree-heading">G.R.O.W.T.H</h3>
+        </div>
+        <div class="footer-links-block">
+            <div class="links-block">
+                <h3 class="footer-header">Learn More</h3>
+                <div class="projects-block">
+                    <a href="projects.html"> 
+                        <p class="footer-caption">Projects</p> 
+                    </a>
+                    <a href="projects.html"> 
+                        <img src="Arrow-Icon.svg" loading="lazy" alt="" class="arrow-vector"/> 
+                    </a>
+                </div>
+                <div class="about-us-block">
+                    <a href="about.html"> <p class="footer-caption">About Us</p> </a>
+                    <a href="about.html"> 
+                        <img src="Arrow-Icon.svg" loading="lazy" alt="" class="arrow-vector1"/> 
+                    </a>
+                </div>
+            </div>
+            <div class="links-block">
+                <h3 class="footer-header">Partners</h3>
+                <p class="footer-caption">G Industries</p>
+                <p class="footer-caption">CLLR. Edwards</p>
+            </div>
+            <div id="Contact" class="links-block">
+                <h3 class="footer-header">Contact Us</h3>
+                <p class="footer-caption">Flow (876) 999-9999</p>
+                <p class="footer-caption">Digicel (876) 999-9999</p>
+            </div>
+            <div class="links-block">
+                <h3 class="footer-header">Socials</h3>
+                <div class="socials-block">
+                    <img src="Twitter-Icon.svg" loading="lazy" width="21" height="17" alt="" class="twitter-svg" />
+                    <img src="Facebook-Icon.svg"loading="lazy" width="18" height="17" alt="" class="facebook-svg"/>
+                    <img src="Instagram-Icon.svg" loading="lazy" width="18" height="17" alt="" class="instagram-svg"/>
+                    <img src="Email-Icon.svg" loading="lazy" alt="" class="email-svg"/>
+                </div>
+                <p class="footer-email">growthfoundation@gmail.com</p>
+            </div>
+        </div>
+        <div class="footer-credits-block">
+            <p class="credits-text">© 2024 - G.R.O.W.T.H Powered By </p>
+            <img src="G-Credit.png" loading="lazy" alt="" class="g-logo"/>
+        </div>
+    </footer>
+    <script src="scripts.js" type="text/javascript"></script>
+</body>
